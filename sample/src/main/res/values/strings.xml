@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Sliding Tutorial</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_stats">Agonizing Statistics</string>
+    <string name="text_donator">No More Confusions</string>
+    <string name="text_e_commerce">e-Commerce</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <string name="order_id_mock" translatable="false">BARKAT</string>
+    <string name="price_mock" translatable="false">$25</string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">SERVINGS</string>
+    <string name="weight_mock" translatable="false">No</string>
+    <string name="weight_badge" translatable="false">EXPIRED</string>
+    <string name="pledge_mock" translatable="false">Yes</string>
+    <string name="pledge_badge" translatable="false">AVAILABLE</string>
+    <string name="sender_badge" translatable="false">SENDER</string>
+    <string name="client_name_mock" translatable="false">Edward Norton</string>
+    <string name="rating_mock" translatable="false">(26)</string>
+    <string name="from_badge" translatable="false">ADDRESS</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">POSTED AT</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">May 16, 2016</string>
+    <string name="deadline_badge" translatable="false">WILL EXPIRE IN</string>
+    <string name="deadline_time_mock" translatable="false">24 minutes</string>
+    <string name="request_btn_text" translatable="false">REQUEST PICKUP</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">W 90th St</string>
+    <string name="content_from2_mock">New York, NY 10025</string>
+    <string name="content_to1_mock">46th Ave</string>
+    <string name="content_to2_mock">Woodside, NY 11101</string>
+
+    <string name="add_alarm">Add New Food</string>
+    <string name="new_alarm_added">New food added successfully</string>
+    <string name="form_hint_title">Food name (required)</string>
+    <string name="form_hint_description">Food description (optional)</string>
+    <string name="error_title_min_characters">At least %1$d characters</string>
+    <string name="main_activity_explanation">Click the button to try it!</string>
+    <string name="main_activity_explanation_disclaimer">This app DOES NOT set up alarms for real!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="steps_titles">
+        <item>Image</item>
+        <item>Name</item>
+        <item>Description</item>
+        <item>Serving size</item>
+        <item>Expiry</item>
+        <item>Address</item>
+    </string-array>
+    <string-array name="steps_subtitles">
+        <item>Upload an image of the food</item>
+        <item>Name of the food</item>
+        <item>Description of the food</item>
+        <item>Food for how many people</item>
+        <item>Set the expiration date and time</item>
+        <item>Where do we find you?</item>
+    </string-array>
+    <string-array name="steps_titles_act5">
+        <item>Pickup time</item>
+        <item>Association</item>
+    </string-array>
+    <string-array name="steps_subtitles_act5">
+        <item>Enter approximate pickup time</item>
+        <item>Are you associated with any NGO?</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+
+    <!-- We can overwrite the values of the library's strings in order to customize them -->
+    <string name="vertical_form_stepper_form_discard_question">Discard food?</string>
+    <string name="vertical_form_stepper_form_discard_question_custom">Discard pickup?</string>
+    <string name="vertical_form_stepper_form_info_will_be_lost">All the information about this new food will be lost</string>
+    <string name="vertical_form_stepper_form_info_will_be_lost_custom">All the information about this new pickup will be lost</string>
+    <string name="vertical_form_stepper_form_confirm_button">Add food</string>
+    <string name="vertical_form_stepper_form_confirm_button_custom">CONFIRM</string>
+    <string name="vertical_form_stepper_form_sending_data_message">Adding new food…</string>
+    <string name="vertical_form_stepper_form_sending_data_message_custom">Processing...</string>
+    <string name="menu_item_donate">Donate</string>
+</resources>
+
+

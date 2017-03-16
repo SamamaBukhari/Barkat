@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/rootFirstPage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    android:theme="@style/AppTheme">
+
+
+    <TextView
+        android:id="@+id/ivNinthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="everyday"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_marginTopPercent="55%"
+        app:layout_marginLeftPercent="10%"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/ivThirdImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/s_2_3"
+
+        app:layout_heightPercent="40%"
+        app:layout_marginTopPercent="27%"
+        app:layout_widthPercent="100%"
+        android:layout_alignBottom="@+id/ivFirstImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/ivSecondImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+
+
+        app:layout_heightPercent="20%"
+        app:layout_marginRightPercent="5%"
+        app:layout_marginTopPercent="55%"
+        app:layout_widthPercent="20%"/>
+
+
+    <TextView
+        android:id="@+id/ivFourthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ISTANIS"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:background="#1B5E20"
+
+        app:layout_marginTopPercent="37%"
+        app:layout_marginLeftPercent="45%"/>
+    <TextView
+        android:id="@+id/ivFifthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="HUNGRY"
+        android:textStyle="bold"
+        android:textSize="55sp"
+        android:textColor="#B71C1C"
+        app:layout_marginTopPercent="45%"
+        app:layout_marginLeftPercent="40%"
+        />
+
+    <TextView
+        android:id="@+id/ivSixthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="18%"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_marginTopPercent="40%"
+        app:layout_marginLeftPercent="12%"
+        />
+
+    <TextView
+        android:id="@+id/ivSeventhImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="PAK"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:background="@android:color/white"
+
+        app:layout_marginTopPercent="37%"
+        app:layout_marginLeftPercent="25%"
+
+        />
+
+    <TextView
+        android:id="@+id/ivEighthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="sleep"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+
+        android:layout_alignBaseline="@id/ivFifthImage"
+        android:layout_alignTop="@id/ivSeventhImage"
+        app:layout_marginLeftPercent="15%"
+        app:layout_marginTopPercent="15%"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/text_stats"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_large"
+
+        app:layout_heightPercent="15%"
+        app:layout_marginBottomPercent="11%"
+        app:layout_widthPercent="100%"/>
+
+    <ImageView
+        android:id="@+id/ivFirstImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        app:layout_heightPercent="35%"
+        app:layout_widthPercent="50%"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ivSecondImage"
+        android:layout_toStartOf="@+id/ivSecondImage" />
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cleveroad.slidingtutorial.sample">
+
+    <uses-sdk tools:overrideLibrary="com.ramotion.foldingcell" />
+
+    <application
+        android:name=".SampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_barkat"
+        android:label="Barkat"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".support.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".support.MainActivity" />
+        <activity android:name=".support.Main2Activity" />
+        <activity
+            android:name=".support.Main3Activity"
+            android:theme="@style/Activity3" />
+        <activity
+            android:name=".support.Main4Activity"
+            android:theme="@style/Activity4"
+            android:label="Food information">
+        </activity>
+        <activity android:name=".support.Main5Activity" android:theme="@style/Activity4" android:label="Pickup information">
+
+        </activity>
+    </application>
+
+</manifest>

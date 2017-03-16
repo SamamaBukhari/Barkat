@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/rootSecondPage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    tools:background="@android:color/holo_green_dark">
+
+    <ImageView
+        android:id="@+id/ivSecondImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:alpha=".5"
+
+
+
+        app:layout_heightPercent="6%"
+        app:layout_marginRightPercent="14%"
+        app:layout_marginTopPercent="30%"
+        app:layout_widthPercent="19%"/>
+
+    <TextView
+        android:id="@+id/ivSixthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="how do i"
+        android:textAllCaps="true"
+        android:textSize="45sp"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="18.5%"
+        />
+
+    <TextView
+        android:id="@+id/ivFourthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="BUT"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+
+        android:textStyle="bold"
+
+        app:layout_marginLeftPercent="40%"
+        app:layout_marginTopPercent="13%"/>
+
+
+    <TextView
+        android:id="@+id/ivThirdImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="I've got food"
+        android:textAllCaps="true"
+        android:textSize="50sp"
+        app:layout_marginLeftPercent="5%"
+        app:layout_marginTopPercent="7%"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/ivSeventhImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="DONATE?"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+        app:layout_marginTopPercent="25%"
+
+        />
+
+    <ImageView
+        android:id="@+id/ivFifthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="33%"
+        app:layout_widthPercent="15%"/>
+
+    <ImageView
+        android:id="@+id/ivEighthImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+
+
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="22%"
+        app:layout_widthPercent="25%"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+
+        android:text="@string/text_donator"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_large"
+
+        app:layout_heightPercent="15%"
+        app:layout_marginBottomPercent="11%"
+        app:layout_widthPercent="100%"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/ivFirstImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/randomguy"
+
+        app:layout_heightPercent="35%"
+        app:layout_widthPercent="50%"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+</android.support.percent.PercentRelativeLayout>
